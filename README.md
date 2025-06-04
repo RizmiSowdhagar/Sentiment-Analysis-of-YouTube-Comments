@@ -30,22 +30,16 @@ This project performs sentiment classification on a dataset of YouTube comments 
 
 ## Workflow
 
-### Week 1: Data Preparation & Feature Engineering
-- Handled missing values and duplicates  
-- Encoded categorical variables  
-- Scaled numerical features  
-- Split into training/test sets  
-- Resolved class imbalance using SMOTE
-
-### Week 2: Model Development
-- Trained and evaluated Random Forest, SVM, and Logistic Regression classifiers  
-- Applied GridSearchCV for hyperparameter tuning  
-- Assessed model performance using accuracy, precision, recall, F1-score, and ROC-AUC  
-
-### Week 3–4: Interpretation & Advanced Mining
-- Applied KMeans clustering and visualized clusters with PCA  
-- Evaluated clustering performance using Silhouette Score  
-- Extracted interpretable patterns using Apriori association rules  
+- Cleaned and preprocessed data by handling missing values and duplicates  
+- Encoded categorical variables and scaled numerical features  
+- Split the dataset into training and test sets  
+- Balanced class distribution using SMOTE  
+- Trained and evaluated multiple supervised models: Random Forest, SVM, and Logistic Regression  
+- Tuned model hyperparameters using GridSearchCV  
+- Evaluated model performance using metrics like accuracy, precision, recall, F1-score, and ROC-AUC  
+- Applied KMeans clustering for unsupervised grouping and evaluated using Silhouette Score  
+- Reduced dimensions with PCA for cluster visualization  
+- Extracted association rules using the Apriori algorithm for interpretable sentiment patterns  
 
 ## Results & Insights
 
